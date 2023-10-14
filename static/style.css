@@ -1,0 +1,53 @@
+body {
+    background-image: url('./static/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info {
+    background-color: #dbbc83;
+    height: 384px;
+    width: 356px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+
+.info>form>.items {
+    text-align: center;
+    display: block;
+    margin: 30px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.create {
+    margin: 46px 0px;
+}
+
+h1 {
+    font-size: 46px;
+}
+.btn
+{   
+    outline: none;
+    border-radius: 4px;
+    padding: 8px 10px;
+}

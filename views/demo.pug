@@ -1,0 +1,13 @@
+extends base.pug
+block style 
+    style 
+      include ../static/style.css
+block content 
+    div.container
+        div.info
+            h1 Login
+            form(action= "/", method= "post")
+                input(type="text", name="name" ,placeholder="Enter Your Name", class="items")
+                input(type="password", name="password" , placeholder="Enter Your Password", class="items")
+                button(class="btn")
+                  | Login
