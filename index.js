@@ -4,7 +4,7 @@ const express = require('express');
 const bodyparser = require('body-parser');
 const app = express();
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/saveinfo',{useNewUrlParser: true});
+    await mongoose.connect('mongodb+srv://hamzasoomro2006khi:Zv65jheQmu3FkNaB@cluster0.xx8syjf.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true});
 
     //   use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 }
